@@ -1,0 +1,13 @@
+#container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    gap: 5%;
+    margin-top: 5%;
+}
+#myForm {
+margin-top: 4%;
+margin-left: 30%;
+margin-right: 30%;
+
+}
