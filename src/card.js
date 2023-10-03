@@ -22,7 +22,7 @@ function CardComp(props) {
                 <Modal.Header closeButton>
                     <Modal.Title>{props.title}</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>{props.description} <br /> </Modal.Body>
+                <Modal.Body>{props.description} <br /> <b>Price: {props.price} $</b></Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={handleShow}>
                         Close
